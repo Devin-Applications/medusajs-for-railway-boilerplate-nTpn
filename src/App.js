@@ -12,7 +12,7 @@ function App() {
           <Grid minH="100vh" p={3}>
             <VStack spacing={8}>
               <Routes>
-                <Route exact path="/" element={
+                <Route path="/" element={
                   <>
                     <Heading as="h1" size="2xl">
                       Spaceship Store
@@ -49,6 +49,16 @@ function App() {
                     </Heading>
                     <Text>
                       Get in touch with us for any inquiries.
+                    </Text>
+                  </>
+                } />
+                <Route path="*" element={
+                  <>
+                    <Heading as="h1" size="2xl">
+                      404 Not Found
+                    </Heading>
+                    <Text>
+                      The page you are looking for does not exist.
                     </Text>
                   </>
                 } />
