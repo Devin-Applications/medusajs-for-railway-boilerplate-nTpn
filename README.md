@@ -162,4 +162,26 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<<<<<<< HEAD
 >>>>>>> 863deaa (Initialize project using Create React App)
+||||||| parent of f0d6d7a (Update .gitignore and README with .env setup instructions)
+=======
+
+## Environment Setup
+
+To set up the environment variables for the project, create a `.env` file in the root directory of the project and add the following:
+
+```
+REACT_APP_BACKEND_URL=https://medusajs-backend-production-cfe4.up.railway.app
+```
+
+Make sure to replace the URL with the appropriate backend URL for your environment.
+
+For local development, you can create a `.env.development` file with a local backend URL:
+
+```
+REACT_APP_BACKEND_URL=http://localhost:9000
+```
+
+Ensure that the `.env` file is included in the `.gitignore` file to prevent exposing sensitive information in version control.
+>>>>>>> f0d6d7a (Update .gitignore and README with .env setup instructions)
